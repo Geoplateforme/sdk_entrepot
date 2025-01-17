@@ -1,3 +1,12 @@
+<!--
+CE DOCUMENT N'A PAS VOCATION A ÊTRE LU DIRECTEMENT OU VIA GITHUB :
+les liens seront cassés, l'affichage ne sera pas correcte. Ne faites ça !
+
+Consultez la doc en ligne ici : https://geoplateforme.github.io/sdk-entrepot/
+
+Le lien vers cette page devrait être : https://geoplateforme.github.io/sdk-entrepot/tutoriel_2_flux_vecteur/
+-->
+
 # Tutoriel 2 : publier un flux vecteur
 
 La Géoplateforme permet d'héberger des flux vecteur pour permettre à vos utilisateurs de les télécharger/utiliser.
@@ -94,7 +103,7 @@ flowchart TD
 
 ## fichier statique
 
-Pour publier les données en WMS il faut appliquer un style aux données. La partie versement d'un style ne peut pas encore se faire avec `sdk_entrepot_gpf`. Il faut donc ajouté le fichier de style à la mains avec swagger, Insomnia ou en ligne de commande. Tutoriel [ICI](https://gpf-beta.ign.fr/geoplateforme/tutoriels/vecteur/gestion_statique/)
+Pour publier les données en WMS il faut appliquer un style aux données. La partie versement d'un style ne peut pas encore se faire avec `sdk_entrepot_gpf`. Il faut donc ajouter le fichier de style à la main avec swagger, Insomnia ou en ligne de commande. Tutoriel [ICI](https://gpf-beta.ign.fr/geoplateforme/tutoriels/vecteur/gestion_statique/)
 
 Un fichier statique ([CANTON_style.sld](https://raw.githubusercontent.com/Geoplateforme/sdk_entrepot/prod/sdk_entrepot_gpf/_data/datasets/1_dataset_vector/CANTON_style.sld)) pour le tuto est disponible dans le jeu de données test. Pour l'utiliser avec le workflow sans modification il faut le livrer avec `"name": "style_canton"`.
 Si vous modifiez le nom du fichier de style il faut modifier dans le workflow la partie "configuration-wms".

@@ -53,7 +53,7 @@ class StoreEntity(ABC):
         return self._datastore
 
     def get_store_properties(self) -> Dict[str, Any]:
-        """Renvoie les propriétés de l'entité' telles que renvoyées par l'API.
+        """Renvoie les propriétés de l'entité telles que renvoyées par l'API.
 
         Returns:
             Propriétés de l'entité (sous la même forme que celle renvoyée par l'API)
@@ -247,7 +247,7 @@ class StoreEntity(ABC):
         """liste les entités à supprimer lors d'une suppression en cascade
 
         Returns:
-            List[StoreEntity]: liste des entités qui seront supprimé
+            List[StoreEntity]: liste des entités qui seront supprimées
         """
         return [self]
 

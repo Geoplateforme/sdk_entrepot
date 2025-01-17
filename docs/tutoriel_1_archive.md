@@ -1,3 +1,12 @@
+<!--
+CE DOCUMENT N'A PAS VOCATION A ÊTRE LU DIRECTEMENT OU VIA GITHUB :
+les liens seront cassés, l'affichage ne sera pas correcte. Ne faites ça !
+
+Consultez la doc en ligne ici : https://geoplateforme.github.io/sdk-entrepot/
+
+Le lien vers cette page devrait être : https://geoplateforme.github.io/sdk-entrepot/tutoriel_1_archive/
+-->
+
 # Tutoriel 1 : publier une archive
 
 La Géoplateforme permet d'héberger vos fichiers pour permettre à vos utilisateur de les télécharger simplement.
@@ -12,7 +21,7 @@ Suivez la page [configuration](configuration.md) pour définir le fichier de con
 
 ## Récupération du jeu de données
 
-Le jeu de données « 2_dataset_archive » contient des données archives à téléverser.
+Le jeu de données « 2_dataset_archive » contient des données de type archive à téléverser.
 
 Récupérez les données en lançant la commande :
 
@@ -83,7 +92,7 @@ flowchart TD
 
 ## Traitement et publication
 
-Le workflow « generic_archive » permet de passer de la livraison à une lien permettant de télécharger la donnée. Il comporte 3 étapes :
+Le workflow « generic_archive » permet de passer de la livraison à un lien permettant de télécharger la donnée. Il comporte 3 étapes :
 
 * `intégration-archive-livrée` : transformation des données livrées temporaires en une Donnée Stockée pérenne ;
 * `patch-donnée-stockée` : ajout de la description des Données Stockée;
